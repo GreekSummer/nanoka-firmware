@@ -1,0 +1,21 @@
+This is the Nanoka control interface.
+While enabled, all other system functions are blocked so they are controllable from this environment.
+
+List of commands:
+    exit --- Exists the shell environment.
+    eval (code) --- Executes bare Python code.
+    
+    relay (on/off) --- Switches the relay on or off.
+    beep (frequency, duty_cycle, duration) --- Buzzes the piezo beeper. All arguements are optional.
+    
+    upload_file (filename) --- Initiates the file upload protocol. An uploader program is required.   
+    ls (directory) --- lists all files in the file system. It accepts an optional argument to specify the directory.
+    cat (filename) --- prints a file to the terminal.
+    rm (filename) --- removes a file from the file system. When the -r switch is used, it removes a directory instead.
+    mkdir (path) --- Creates a directory.
+    
+    set_setting (*keys, value) --- modifies a setting. Every argument specifies a key. The last argument specified is the value.
+    print_settings --- prints current settings.
+    
+    echo --- produces a loopback echo
+    

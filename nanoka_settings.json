@@ -1,0 +1,24 @@
+{
+"self_test": {
+"relay_hold_time": 1,
+ "gpio_test_interval": 200,
+ "gpio_hold_time": 0.01,
+ "relay_switch_interval": 6
+},
+ "commands": {
+"raise_exception_on_command_error": false,
+ "print_exception_on_console": false
+},
+ "player": {
+"debounce_delay": 0.18,
+ "double_click_delay": 0.18
+},
+ "main": {
+"exit_on_error": true,
+ "raise_exceptions": false,
+ "print_to_uart_on_error": true,
+ "beep_on_error": true,
+ "write_to_uart_on_error": true,
+ "skip_startup_self_test": false
+}
+}
