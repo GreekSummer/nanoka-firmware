@@ -16,7 +16,6 @@
  "main": {
 "exit_on_error": true,
  "raise_exceptions": false,
- "print_to_uart_on_error": true,
  "beep_on_error": true,
  "write_to_uart_on_error": true,
  "skip_startup_self_test": false
